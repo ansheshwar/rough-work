@@ -2,8 +2,6 @@ from flask import Flask, request, jsonify
 from langchain_google_genai import GoogleGenerativeAI
 from langchain.prompts import PromptTemplate
 import os
-
-
 from dotenv import load_dotenv
 
 load_dotenv()   
